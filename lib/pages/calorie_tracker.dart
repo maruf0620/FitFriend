@@ -106,7 +106,7 @@ class _CalorieTrackerState extends State<CalorieTracker>
 
   Future<void> getFoodInfo(String query, String mealType) async {
     const String apiKey =
-        'WuvIt/PGt1Pz8L0O1IuHOQ==vPLZlUluXLk5fm63'; 
+        ''; 
     final Uri uri =
         Uri.https('api.calorieninjas.com', '/v1/nutrition', {'query': query});
     try {

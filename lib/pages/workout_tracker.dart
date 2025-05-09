@@ -200,7 +200,7 @@ Future<void> checkAndSavePR(String userId, String exercise, double kilos, int se
     queryParams.removeWhere((key, value) => value == null);
 
     var uri = Uri.https('api.api-ninjas.com', '/v1/exercises', queryParams);
-    var response = await http.get(uri, headers: {'X-Api-Key': 'WuvIt/PGt1Pz8L0O1IuHOQ==jA1uSxqJZ1EkOHPv'});
+    var response = await http.get(uri, headers: {'X-Api-Key': ''});
 
     if (response.statusCode == 200) {
       List<dynamic> body = jsonDecode(response.body);

@@ -1,5 +1,1 @@
-# MODERN LOGIN UI x FLUTTER
-
-Watch tutorial here: https://youtu.be/Dh-cTQJgM-Q
-
-![72692840-4960-4603-B21E-3BC8442AA19F](https://user-images.githubusercontent.com/29016489/206952739-29d2403c-c26b-472f-9f4d-fdc0e1458326.JPG)
+FitFriend is a fitness application designed to combine the features of multiple applications into one. If you'd like to view the main code files, click on the lib file and check through the pages. The API keys have been removed on the code files, in a future iteration it would be better to put them in a .env file but since I've stopped developing the app I haven't bothered doing it. 
